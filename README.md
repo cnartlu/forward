@@ -4,8 +4,11 @@
 # 使用方法
 
 -r []string 转发规则 格式loaclAddr/remoteAddr
+
 -o []string 组织cloudflare google
+
 -d []string IP所属域
+
 -remote-db string 远程下载的文件地址，默认值 https://github.com/cnartlu/geoip2/releases/download/V2023121819/asn.mmdb
 
 systemd.service 创建
